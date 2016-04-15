@@ -1,0 +1,945 @@
+TMovieQuotes
+v7
+r0
+t309102545.543394
+cCheck dependencies
+cProcessInfoPlistFile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Info.plist MovieQuotes-Info.plist
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesList.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetNavController.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/MovieInfo.xib
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/MoviesList.png MoviesList.png
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/Genres.png Genres.png
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/Home.png Home.png
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/AlphabetScrollView.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Genres.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/GenresNavController.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/SearchNavController.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Random.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/RandomNavController.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Classes/Search.xib
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilter.xib
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/Search.png Search.png
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/Categories.png Categories.png
+cCompileXIB /Users/Laiho/Dropbox/MovieQuotes/PeriodPicker.xib
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/Film.png Film.png
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/FilmBackground.png FilmBackground.png
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/icon.png icon.png
+cCpResource build/Release-iphonesimulator/MovieQuotes.app/database.sqlite database.sqlite
+cProcessPCH /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch.gch MovieQuotes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/main.o /Users/Laiho/Dropbox/MovieQuotes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieQuotesAppDelegate.o /Users/Laiho/Dropbox/MovieQuotes/Classes/MovieQuotesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/../GenresController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SqliteDelegate.o /Users/Laiho/Dropbox/MovieQuotes/Classes/SqliteDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MoviesListController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/NavController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/NavController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieInfoController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/../MovieInfoController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/AlphabetScrollViewController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetScrollViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/RandomMovieController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/RandomMovieController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SearchController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/SearchController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresFilterController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilterController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/PeriodPickerController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/PeriodPickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes normal i386
+cGenerateDSYMFile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app.dSYM /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes
+cTouch /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/sqlite3.h
+c000000004C5A494E000000000004252F
+t1280985422
+s271663
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libsqlite3.0.dylib
+c000000004C5A495F00000000000836C0
+t1280985439
+s538304
+
+N/Users/Laiho/Dropbox/MovieQuotes/AlphabetScrollView.xib
+c000000004C8659F900000000000C8169
+t1283873273
+s819561
+
+N/Users/Laiho/Dropbox/MovieQuotes/Categories.png
+c000000004C8659FC0000000000000156
+t1283873276
+s342
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/../GenresController.m
+c000000004C8659FE0000000000000F1D
+t1283873278
+s3869
+i"GenresController.h"
+i"SqliteDelegate.h"
+i"MoviesListController.h"
+i"MovieQuotesAppDelegate.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/../MovieInfoController.h
+c000000004C8659FE00000000000006E2
+t1283873278
+s1762
+i<UIKit/UIKit.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/../MovieInfoController.m
+c000000004C9F621F0000000000001B81
+t1285513759
+s7041
+i"MovieInfoController.h"
+i"SqliteDelegate.h"
+i"NavController.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetNavController.xib
+c000000004C8659FC00000000000040D4
+t1283873276
+s16596
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetScrollViewController.h
+c000000004C8659FC00000000000003D5
+t1283873276
+s981
+i<UIKit/UIKit.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetScrollViewController.m
+c000000004C8659FC0000000000001621
+t1283873276
+s5665
+i"AlphabetScrollViewController.h"
+i"MoviesListController.h"
+i"MovieQuotesAppDelegate.h"
+i"MovieInfoController.h"
+i"SqliteDelegate.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilter.xib
+c000000004C8659FC0000000000005100
+t1283873276
+s20736
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilterController.h
+c000000004C8659FC0000000000000244
+t1283873276
+s580
+i<Foundation/Foundation.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilterController.m
+c000000004C8659FC0000000000000EAA
+t1283873276
+s3754
+i"GenresFilterController.h"
+i"SqliteDelegate.h"
+i"MoviesListController.h"
+i"MovieQuotesAppDelegate.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/MovieQuotesAppDelegate.h
+c000000004C8659FC00000000000003DD
+t1283873276
+s989
+i<UIKit/UIKit.h>
+i"NavController.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/MovieQuotesAppDelegate.m
+c000000004C8659FC00000000000002ED
+t1283873276
+s749
+i"MovieQuotesAppDelegate.h"
+i"NavController.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesList.xib
+c000000004C8659FC00000000000C77C3
+t1283873276
+s817091
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesListController.h
+c000000004C8659FC0000000000000371
+t1283873276
+s881
+i<UIKit/UIKit.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesListController.m
+c000000004C8659FC0000000000000DFD
+t1283873276
+s3581
+i"MoviesListController.h"
+i"SqliteDelegate.h"
+i"MovieInfoController.h"
+i"MovieQuotesAppDelegate.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/NavController.h
+c000000004C8659FC00000000000001C2
+t1283873276
+s450
+i<UIKit/UIKit.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/NavController.m
+c000000004C8659FC000000000000019D
+t1283873276
+s413
+i"NavController.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/PeriodPickerController.h
+c000000004C8659FC0000000000000342
+t1283873276
+s834
+i<Foundation/Foundation.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/PeriodPickerController.m
+c000000004C8659FC0000000000000D61
+t1283873276
+s3425
+i"PeriodPickerController.h"
+i"SearchController.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/RandomMovieController.h
+c000000004C8659FC00000000000001FA
+t1283873276
+s506
+i<UIKit/UIKit.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/RandomMovieController.m
+c000000004C8659FC00000000000005EC
+t1283873276
+s1516
+i"RandomMovieController.h"
+i"MovieInfoController.h"
+i"MovieQuotesAppDelegate.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/Search.xib
+c000000004C9F7C6C00000000000060E0
+t1285520492
+s24800
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/SearchController.h
+c000000004C8659FC000000000000085C
+t1283873276
+s2140
+i<Foundation/Foundation.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/SearchController.m
+c000000004C9F7BA8000000000000369E
+t1285520296
+s13982
+i"SearchController.h"
+i"SqliteDelegate.h"
+i"GenresFilterController.h"
+i"MovieQuotesAppDelegate.h"
+i"PeriodPickerController.h"
+i"MoviesListController.h"
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/SqliteDelegate.h
+c000000004C8659FC0000000000000172
+t1283873276
+s370
+i<Foundation/Foundation.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Classes/SqliteDelegate.m
+c000000004C8659FC000000000000048C
+t1283873276
+s1164
+i"SqliteDelegate.h"
+i<sqlite3.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/Film.png
+c000000004C8659FE0000000000004319
+t1283873278
+s17177
+
+N/Users/Laiho/Dropbox/MovieQuotes/FilmBackground.png
+c000000004C8659FE000000000000A10D
+t1283873278
+s41229
+
+N/Users/Laiho/Dropbox/MovieQuotes/Genres.png
+c000000004C8659FE00000000000000DC
+t1283873278
+s220
+
+N/Users/Laiho/Dropbox/MovieQuotes/Genres.xib
+c000000004C8659FE00000000000053A4
+t1283873278
+s21412
+
+N/Users/Laiho/Dropbox/MovieQuotes/GenresController.h
+c000000004C8659FE0000000000000243
+t1283873278
+s579
+i<UIKit/UIKit.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/GenresNavController.xib
+c000000004C8659FE0000000000002C13
+t1283873278
+s11283
+
+N/Users/Laiho/Dropbox/MovieQuotes/Home.png
+c000000004C8659FE00000000000000CF
+t1283873278
+s207
+
+N/Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib
+c000000004C8659FE00000000000CF615
+t1283873278
+s849429
+
+N/Users/Laiho/Dropbox/MovieQuotes/MovieInfo.xib
+c000000004C8659FE00000000000CCB37
+t1283873278
+s838455
+
+N/Users/Laiho/Dropbox/MovieQuotes/MovieInfoController.h
+c000000004C8659FE00000000000006E2
+t1283873278
+s1762
+i<UIKit/UIKit.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/MovieQuotes_Prefix.pch
+c000000004C8659FE00000000000000BF
+t1283873278
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Laiho/Dropbox/MovieQuotes/MoviesList.png
+c000000004C8659FE00000000000000D5
+t1283873278
+s213
+
+N/Users/Laiho/Dropbox/MovieQuotes/PeriodPicker.xib
+c000000004C9F7C6400000000000C8E39
+t1285520484
+s822841
+
+N/Users/Laiho/Dropbox/MovieQuotes/Random.xib
+c000000004C8659FE0000000000006C21
+t1283873278
+s27681
+
+N/Users/Laiho/Dropbox/MovieQuotes/RandomNavController.xib
+c000000004C8659FE0000000000002D80
+t1283873278
+s11648
+
+N/Users/Laiho/Dropbox/MovieQuotes/Search.png
+c000000004C8659FE0000000000000184
+t1283873278
+s388
+
+N/Users/Laiho/Dropbox/MovieQuotes/SearchNavController.xib
+c000000004C8659FE00000000000045BD
+t1283873278
+s17853
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/AlphabetScrollViewController.o
+t1287409742
+s67140
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresController.o
+t1287409742
+s61412
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresFilterController.o
+t1287409742
+s52744
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieInfoController.o
+t1287409742
+s73572
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieQuotes.LinkFileList
+c000000004CBC503C0000000000000691
+t1287409724
+s1681
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieQuotesAppDelegate.o
+t1287409742
+s54400
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MoviesListController.o
+t1287409742
+s67140
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/NavController.o
+t1287409741
+s39252
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/PeriodPickerController.o
+t1287409742
+s52740
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/RandomMovieController.o
+t1287409742
+s52008
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SearchController.o
+t1287409742
+s100388
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SqliteDelegate.o
+t1287409741
+s10720
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/main.o
+t1287409741
+s6276
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app
+t1287409745
+s918
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app.dSYM
+t1287409745
+s102
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/AlphabetNavController.nib
+t1287409726
+s1233
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/AlphabetScrollView.nib
+t1287409726
+s3077
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Categories.png
+t1287409727
+s342
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Film.png
+t1287409727
+s17177
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/FilmBackground.png
+t1287409727
+s41229
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Genres.nib
+t1287409726
+s2404
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Genres.png
+t1287409724
+s220
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/GenresFilter.nib
+t1287409727
+s2285
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/GenresNavController.nib
+t1287409726
+s1029
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Home.png
+t1287409724
+s207
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Info.plist
+t1287409724
+s641
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MainWindow.nib
+t1287409726
+s6355
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieInfo.nib
+t1287409727
+s6468
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes
+t1287409745
+s113000
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MoviesList.nib
+t1287409726
+s2461
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MoviesList.png
+t1287409724
+s213
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/PeriodPicker.nib
+t1287409728
+s4151
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/PkgInfo
+t1287409724
+s8
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Random.nib
+t1287409727
+s4533
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/RandomNavController.nib
+t1287409726
+s1029
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Search.nib
+t1287409727
+s3845
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Search.png
+t1287409727
+s388
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/SearchNavController.nib
+t1287409726
+s1233
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/database.sqlite
+t1287409729
+s17553408
+
+N/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/icon.png
+t1287409727
+s3598
+
+N/Users/Laiho/Dropbox/MovieQuotes/database.sqlite
+c000000004C8659FE00000000010BD800
+t1283873278
+s17553408
+
+N/Users/Laiho/Dropbox/MovieQuotes/icon.png
+c000000004C8659FE0000000000000E0E
+t1283873278
+s3598
+
+N/Users/Laiho/Dropbox/MovieQuotes/main.m
+c000000004C8659FE0000000000000161
+t1283873278
+s353
+i<UIKit/UIKit.h>
+
+N/var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch.gch
+t1287409741
+s14875664
+
+NMovieQuotes-Info.plist
+c000000004C8659FE0000000000000395
+t1283873278
+s917
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309102521#309102524#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/AlphabetScrollViewController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetScrollViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.698095
+e309102542.150695
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/AlphabetScrollViewController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetScrollViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetScrollViewController.m309102541#309102542#0(0"0(0#0#71"/Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetScrollViewController.m8604716864#2019"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetScrollViewController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/AlphabetScrollViewController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/../GenresController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.694320
+e309102542.013622
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/../GenresController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/../GenresController.m309102541#309102542#0(0"0(0#0#62"/Users/Laiho/Dropbox/MovieQuotes/Classes/../GenresController.m8606800992#1998"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/../GenresController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresFilterController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilterController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102542.012079
+e309102542.237278
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresFilterController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilterController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilterController.m309102542#309102542#0(0"0(0#0#65"/Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilterController.m8604202272#2007"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilterController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/GenresFilterController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieInfoController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/../MovieInfoController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.697234
+e309102542.237015
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieInfoController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/../MovieInfoController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/../MovieInfoController.m309102541#309102542#0(0"0(0#0#65"/Users/Laiho/Dropbox/MovieQuotes/Classes/../MovieInfoController.m8604925760#2004"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/../MovieInfoController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieInfoController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieQuotesAppDelegate.o /Users/Laiho/Dropbox/MovieQuotes/Classes/MovieQuotesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.693708
+e309102542.016156
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieQuotesAppDelegate.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/MovieQuotesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/MovieQuotesAppDelegate.m309102541#309102542#0(0"0(0#0#65"/Users/Laiho/Dropbox/MovieQuotes/Classes/MovieQuotesAppDelegate.m8605020480#2007"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/MovieQuotesAppDelegate.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieQuotesAppDelegate.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MoviesListController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.695597
+e309102542.017791
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MoviesListController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesListController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesListController.m309102541#309102542#0(0"0(0#0#63"/Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesListController.m8604593536#2003"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesListController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MoviesListController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/NavController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/NavController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.696386
+e309102542.011960
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/NavController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/NavController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/NavController.m309102541#309102542#0(0"0(0#0#56"/Users/Laiho/Dropbox/MovieQuotes/Classes/NavController.m8604003488#1989"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/NavController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/NavController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/PeriodPickerController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/PeriodPickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102542.013736
+e309102542.236809
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/PeriodPickerController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/PeriodPickerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/PeriodPickerController.m309102542#309102542#0(0"0(0#0#65"/Users/Laiho/Dropbox/MovieQuotes/Classes/PeriodPickerController.m8604025856#2007"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/PeriodPickerController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/PeriodPickerController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/RandomMovieController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/RandomMovieController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.993701
+e309102542.175939
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/RandomMovieController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/RandomMovieController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/RandomMovieController.m309102541#309102542#0(0"0(0#0#64"/Users/Laiho/Dropbox/MovieQuotes/Classes/RandomMovieController.m8604385120#2005"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/RandomMovieController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/RandomMovieController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SearchController.o /Users/Laiho/Dropbox/MovieQuotes/Classes/SearchController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.994994
+e309102542.349383
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SearchController.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/SearchController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/SearchController.m309102541#309102542#0(0"0(0#0#59"/Users/Laiho/Dropbox/MovieQuotes/Classes/SearchController.m8604296288#1995"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/SearchController.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SearchController.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SqliteDelegate.o /Users/Laiho/Dropbox/MovieQuotes/Classes/SqliteDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.694964
+e309102541.994899
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SqliteDelegate.o
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/SqliteDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Laiho/Dropbox/MovieQuotes/Classes/SqliteDelegate.m309102541#309102541#0(0"0(0#0#57"/Users/Laiho/Dropbox/MovieQuotes/Classes/SqliteDelegate.m8605414208#1991"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/Classes/SqliteDelegate.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/SqliteDelegate.o0#
+
+CCompileC build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/main.o /Users/Laiho/Dropbox/MovieQuotes/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102541.692988
+e309102541.993587
+r1
+xCompileC
+xbuild/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/main.o
+x/Users/Laiho/Dropbox/MovieQuotes/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/Laiho/Dropbox/MovieQuotes/main.m309102541#309102541#0(0"0(0#0#39"/Users/Laiho/Dropbox/MovieQuotes/main.m8605310432#1963"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -include /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch -c /Users/Laiho/Dropbox/MovieQuotes/main.m -o /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/AlphabetScrollView.xib
+s309102524.224156
+e309102527.007637
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/AlphabetScrollView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@33"CompileXIB AlphabetScrollView.xib309102524#309102527#0(504"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/Laiho/Dropbox/MovieQuotes/AlphabetScrollView.xib8604580096#574"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/AlphabetScrollView.nib /Users/Laiho/Dropbox/MovieQuotes/AlphabetScrollView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetNavController.xib
+s309102524.221484
+e309102526.596307
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetNavController.xib
+lSLF07#2@44"CompileXIB Classes/AlphabetNavController.xib309102524#309102526#0(0"0(0#0#66"/Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetNavController.xib8605598592#588"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/AlphabetNavController.nib /Users/Laiho/Dropbox/MovieQuotes/Classes/AlphabetNavController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilter.xib
+s309102526.884565
+e309102527.483538
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilter.xib
+lSLF07#2@35"CompileXIB Classes/GenresFilter.xib309102526#309102527#0(0"0(0#0#57"/Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilter.xib8605325344#570"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/GenresFilter.nib /Users/Laiho/Dropbox/MovieQuotes/Classes/GenresFilter.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesList.xib
+s309102524.220914
+e309102527.007488
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesList.xib
+lSLF07#2@33"CompileXIB Classes/MoviesList.xib309102524#309102527#0(0"0(0#0#55"/Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesList.xib8606814432#566"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MoviesList.nib /Users/Laiho/Dropbox/MovieQuotes/Classes/MoviesList.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Classes/Search.xib
+s309102526.597591
+e309102527.162097
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/Classes/Search.xib
+lSLF07#2@29"CompileXIB Classes/Search.xib309102526#309102527#0(0"0(0#0#51"/Users/Laiho/Dropbox/MovieQuotes/Classes/Search.xib8605639616#558"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Search.nib /Users/Laiho/Dropbox/MovieQuotes/Classes/Search.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Genres.xib
+s309102524.512461
+e309102527.005336
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/Genres.xib
+lSLF07#2@21"CompileXIB Genres.xib309102524#309102527#0(0"0(0#0#43"/Users/Laiho/Dropbox/MovieQuotes/Genres.xib8604190016#550"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Genres.nib /Users/Laiho/Dropbox/MovieQuotes/Genres.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/GenresNavController.xib
+s309102524.513604
+e309102526.596486
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/GenresNavController.xib
+lSLF07#2@34"CompileXIB GenresNavController.xib309102524#309102526#0(0"0(0#0#56"/Users/Laiho/Dropbox/MovieQuotes/GenresNavController.xib8604096256#576"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/GenresNavController.nib /Users/Laiho/Dropbox/MovieQuotes/GenresNavController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib
+s309102524.165156
+e309102526.884505
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib:161: warning: The tint color property of UINavigationBar does not support pattern colors.
+lSLF07#2@25"CompileXIB MainWindow.xib309102524#309102526#0(179"/* com.apple.ibtool.document.warnings *//Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib:161: warning: The tint color property of UINavigationBar does not support pattern colors.1(22@75"The tint color property of UINavigationBar does not support pattern colors.309102526#18446744073709551615#0#0(6@47"/Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib305566078#161#0#161#0#0"0(0#0#47"/Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib8605375872#558"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MainWindow.nib /Users/Laiho/Dropbox/MovieQuotes/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/MovieInfo.xib
+s309102524.221924
+e309102528.323049
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/MovieInfo.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@24"CompileXIB MovieInfo.xib309102524#309102528#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#46"/Users/Laiho/Dropbox/MovieQuotes/MovieInfo.xib8605521824#556"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieInfo.nib /Users/Laiho/Dropbox/MovieQuotes/MovieInfo.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/PeriodPicker.xib
+s309102527.006723
+e309102528.379469
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/PeriodPicker.xib
+lSLF07#2@27"CompileXIB PeriodPicker.xib309102527#309102528#0(0"0(0#0#49"/Users/Laiho/Dropbox/MovieQuotes/PeriodPicker.xib8605490656#562"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/PeriodPicker.nib /Users/Laiho/Dropbox/MovieQuotes/PeriodPicker.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/Random.xib
+s309102526.596637
+e309102527.350722
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/Random.xib
+lSLF07#2@21"CompileXIB Random.xib309102526#309102527#0(0"0(0#0#43"/Users/Laiho/Dropbox/MovieQuotes/Random.xib8606796160#550"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Random.nib /Users/Laiho/Dropbox/MovieQuotes/Random.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/RandomNavController.xib
+s309102526.597109
+e309102527.103260
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/RandomNavController.xib
+lSLF07#2@34"CompileXIB RandomNavController.xib309102526#309102527#0(0"0(0#0#56"/Users/Laiho/Dropbox/MovieQuotes/RandomNavController.xib8605306112#576"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/RandomNavController.nib /Users/Laiho/Dropbox/MovieQuotes/RandomNavController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/Laiho/Dropbox/MovieQuotes/SearchNavController.xib
+s309102524.514341
+e309102526.596586
+r1
+xCompileXIB
+x/Users/Laiho/Dropbox/MovieQuotes/SearchNavController.xib
+lSLF07#2@34"CompileXIB SearchNavController.xib309102524#309102526#0(0"0(0#0#56"/Users/Laiho/Dropbox/MovieQuotes/SearchNavController.xib8604027936#576"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/SearchNavController.nib /Users/Laiho/Dropbox/MovieQuotes/SearchNavController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/Categories.png Categories.png
+s309102527.006137
+e309102527.096719
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/Categories.png
+xCategories.png
+lSLF07#2@19"Copy Categories.png309102527#309102527#0(0"0(0#0#47"/Users/Laiho/Dropbox/MovieQuotes/Categories.png8605553952#467"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/Categories.png /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/Film.png Film.png
+s309102527.096804
+e309102527.255215
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/Film.png
+xFilm.png
+lSLF07#2@13"Copy Film.png309102527#309102527#0(0"0(0#0#41"/Users/Laiho/Dropbox/MovieQuotes/Film.png8606819168#461"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/Film.png /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/FilmBackground.png FilmBackground.png
+s309102527.097310
+e309102527.279858
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/FilmBackground.png
+xFilmBackground.png
+lSLF07#2@23"Copy FilmBackground.png309102527#309102527#0(0"0(0#0#51"/Users/Laiho/Dropbox/MovieQuotes/FilmBackground.png8605603872#471"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/FilmBackground.png /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/Genres.png Genres.png
+s309102524.223098
+e309102524.513332
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/Genres.png
+xGenres.png
+lSLF07#2@15"Copy Genres.png309102524#309102524#0(0"0(0#0#43"/Users/Laiho/Dropbox/MovieQuotes/Genres.png8604975200#463"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/Genres.png /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/Home.png Home.png
+s309102524.223554
+e309102524.513489
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/Home.png
+xHome.png
+lSLF07#2@13"Copy Home.png309102524#309102524#0(0"0(0#0#41"/Users/Laiho/Dropbox/MovieQuotes/Home.png8604735776#461"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/Home.png /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/MoviesList.png MoviesList.png
+s309102524.222466
+e309102524.512357
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/MoviesList.png
+xMoviesList.png
+lSLF07#2@19"Copy MoviesList.png309102524#309102524#0(0"0(0#0#47"/Users/Laiho/Dropbox/MovieQuotes/MoviesList.png8605276256#467"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/MoviesList.png /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/Search.png Search.png
+s309102527.005437
+e309102527.098700
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/Search.png
+xSearch.png
+lSLF07#2@15"Copy Search.png309102527#309102527#0(0"0(0#0#43"/Users/Laiho/Dropbox/MovieQuotes/Search.png8606838912#463"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/Search.png /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/database.sqlite database.sqlite
+s309102527.098780
+e309102529.804934
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/database.sqlite
+xdatabase.sqlite
+lSLF07#2@20"Copy database.sqlite309102527#309102529#0(0"0(0#0#48"/Users/Laiho/Dropbox/MovieQuotes/database.sqlite8605417760#468"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/database.sqlite /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CCpResource build/Release-iphonesimulator/MovieQuotes.app/icon.png icon.png
+s309102527.097947
+e309102527.160692
+r1
+xCpResource
+xbuild/Release-iphonesimulator/MovieQuotes.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png309102527#309102527#0(0"0(0#0#41"/Users/Laiho/Dropbox/MovieQuotes/icon.png8605563040#461"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/Laiho/Dropbox/MovieQuotes/icon.png /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+
+CGenerateDSYMFile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app.dSYM /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes
+s309102545.203771
+e309102545.540801
+r1
+xGenerateDSYMFile
+x/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app.dSYM
+x/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes
+lSLF07#2@125"GenerateDSYMFile build/Release-iphonesimulator/MovieQuotes.app.dSYM build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes309102545#309102545#0(0"0(0#0#90"/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes8603686080#381"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes -o /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app.dSYM0#
+
+CLd /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes normal i386
+s309102542.349448
+e309102545.203524
+r1
+xLd
+x/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes
+xnormal
+xi386
+lSLF07#2@95"Link /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes309102542#309102545#0(0"0(0#0#0"8605053696#953"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -L/Users/Laiho/Dropbox/MovieQuotes/Classes -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -filelist /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/Objects-normal/i386/MovieQuotes.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/MovieQuotes0#
+
+CProcessInfoPlistFile /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Info.plist MovieQuotes-Info.plist
+s309102524.148838
+e309102524.165096
+r1
+xProcessInfoPlistFile
+x/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Info.plist
+xMovieQuotes-Info.plist
+lSLF07#2@30"Process MovieQuotes-Info.plist309102524#309102524#0(0"0(0#0#55"/Users/Laiho/Dropbox/MovieQuotes/MovieQuotes-Info.plist13229813538947188#477"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MovieQuotes-Info.plist -genpkginfo /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app/Info.plist0#
+
+CProcessPCH /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch.gch MovieQuotes_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s309102529.805046
+e309102541.692849
+r1
+xProcessPCH
+x/var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch.gch
+xMovieQuotes_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile MovieQuotes_Prefix.pch309102529#309102541#0(0"0(0#0#55"/Users/Laiho/Dropbox/MovieQuotes/MovieQuotes_Prefix.pch8604424160#1855"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-generated-files.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-own-target-headers.hmap -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-all-target-headers.hmap -iquote /Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/MovieQuotes-project-headers.hmap -F/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator -I/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/include -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources/i386 -I/Users/Laiho/Dropbox/MovieQuotes/build/MovieQuotes.build/Release-iphonesimulator/MovieQuotes.build/DerivedSources -c /Users/Laiho/Dropbox/MovieQuotes/MovieQuotes_Prefix.pch -o /var/folders/M4/M4AllvbLFLeC1ID86afkk++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovieQuotes_Prefix-ciqtbekkfcocgdbrglosuhkyfbmg/MovieQuotes_Prefix.pch.gch0#
+
+CTouch /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app
+s309102545.540861
+e309102545.543362
+r1
+xTouch
+x/Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app
+lSLF07#2@84"Touch /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app309102545#309102545#0(0"0(0#0#0"8606772448#272"    cd /Users/Laiho/Dropbox/MovieQuotes    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Laiho/Dropbox/MovieQuotes/build/Release-iphonesimulator/MovieQuotes.app0#
+

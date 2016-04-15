@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MovieQuotesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MovieQuotesAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		48129CEE1221918B00371C43 /* Film.png in Resources */ = {isa = PBXBuildFile; fileRef = 48129CED1221918B00371C43 /* Film.png */; };
+		48174C4B1225BA0700C639F8 /* FilmBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 48174C4A1225BA0700C639F8 /* FilmBackground.png */; };
+		48174CB91225C4FD00C639F8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48174CB81225C4FD00C639F8 /* icon.png */; };
+		48174D8F1225D49400C639F8 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 48174D8E1225D49400C639F8 /* database.sqlite */; };
+		48344B2D115D15BE00BCA21E /* Search.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48344B2C115D15BE00BCA21E /* Search.xib */; };
+		48344B30115D15C600BCA21E /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48344B2F115D15C600BCA21E /* SearchController.m */; };
+		48366B40110F072F00209DE1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48366B3F110F072F00209DE1 /* libsqlite3.0.dylib */; };
+		484FE7321109E65D0001BF9D /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484FE7301109E65D0001BF9D /* NavController.m */; };
+		484FE7331109E65D0001BF9D /* AlphabetNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484FE7311109E65D0001BF9D /* AlphabetNavController.xib */; };
+		484FE78B1109EDBC0001BF9D /* MovieInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484FE7891109EDBC0001BF9D /* MovieInfoController.m */; };
+		484FE78C1109EDBC0001BF9D /* MovieInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484FE78A1109EDBC0001BF9D /* MovieInfo.xib */; };
+		484FE7E81109FB750001BF9D /* MoviesList.png in Resources */ = {isa = PBXBuildFile; fileRef = 484FE7E71109FB750001BF9D /* MoviesList.png */; };
+		484FE7EA1109FBC90001BF9D /* Genres.png in Resources */ = {isa = PBXBuildFile; fileRef = 484FE7E91109FBC90001BF9D /* Genres.png */; };
+		484FE7EC1109FBDF0001BF9D /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 484FE7EB1109FBDF0001BF9D /* Home.png */; };
+		48639D981166270700317E96 /* GenresFilter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48639D971166270700317E96 /* GenresFilter.xib */; };
+		4888E6C0117CC0E200D4CBD6 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 4888E6BF117CC0E200D4CBD6 /* Search.png */; };
+		4888E6C3117CC12E00D4CBD6 /* Categories.png in Resources */ = {isa = PBXBuildFile; fileRef = 4888E6C2117CC12E00D4CBD6 /* Categories.png */; };
+		4892E1601173A92D006B1D79 /* GenresFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4892E15F1173A92D006B1D79 /* GenresFilterController.m */; };
+		4892E4E7117B6B47006B1D79 /* PeriodPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4892E4E5117B6B47006B1D79 /* PeriodPickerController.m */; };
+		48C0C6E31105FD170021E50E /* GenresController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0C6E11105FD170021E50E /* GenresController.m */; };
+		48C0C6FE1105FE490021E50E /* SqliteDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0C6FD1105FE490021E50E /* SqliteDelegate.m */; };
+		48C0C7D7110611BB0021E50E /* MoviesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C0C7D5110611BB0021E50E /* MoviesListController.m */; };
+		48C548F4113D878F00F03665 /* Random.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C548F3113D878F00F03665 /* Random.xib */; };
+		48C5495F113EB6E600F03665 /* RandomNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C5495E113EB6E600F03665 /* RandomNavController.xib */; };
+		48C799561189F06F00392A5E /* PeriodPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C799551189F06F00392A5E /* PeriodPicker.xib */; };
+		48DBB2E21111F5A50064B780 /* GenresNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DBB2E11111F5A50064B780 /* GenresNavController.xib */; };
+		48DBB2E61111F5AF0064B780 /* SearchNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DBB2E51111F5AF0064B780 /* SearchNavController.xib */; };
+		48E8552C1109C70D004D1F14 /* MoviesList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E8552B1109C70D004D1F14 /* MoviesList.xib */; };
+		48E9D0951110521300D9530E /* AlphabetScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E9D0941110521300D9530E /* AlphabetScrollView.xib */; };
+		48E9D0AA111053C700D9530E /* AlphabetScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9D0A9111053C700D9530E /* AlphabetScrollViewController.m */; };
+		48E9D0CA1110556100D9530E /* Genres.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E9D0C91110556100D9530E /* Genres.xib */; };
+		48E9D15211105DE200D9530E /* RandomMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9D15111105DE200D9530E /* RandomMovieController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MovieQuotesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieQuotesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MovieQuotesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieQuotesAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MovieQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* MovieQuotes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieQuotes_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48129CED1221918B00371C43 /* Film.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Film.png; sourceTree = "<group>"; };
+		48174C4A1225BA0700C639F8 /* FilmBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FilmBackground.png; sourceTree = "<group>"; };
+		48174CB81225C4FD00C639F8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		48174D8E1225D49400C639F8 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
+		48344B2C115D15BE00BCA21E /* Search.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Search.xib; path = Classes/Search.xib; sourceTree = "<group>"; };
+		48344B2E115D15C600BCA21E /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
+		48344B2F115D15C600BCA21E /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
+		48366B3F110F072F00209DE1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		484FE72F1109E65D0001BF9D /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		484FE7301109E65D0001BF9D /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		484FE7311109E65D0001BF9D /* AlphabetNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AlphabetNavController.xib; path = Classes/AlphabetNavController.xib; sourceTree = "<group>"; };
+		484FE7881109EDBC0001BF9D /* MovieInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieInfoController.h; path = ../MovieInfoController.h; sourceTree = "<group>"; };
+		484FE7891109EDBC0001BF9D /* MovieInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieInfoController.m; path = ../MovieInfoController.m; sourceTree = "<group>"; };
+		484FE78A1109EDBC0001BF9D /* MovieInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieInfo.xib; sourceTree = "<group>"; };
+		484FE7E71109FB750001BF9D /* MoviesList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoviesList.png; sourceTree = "<group>"; };
+		484FE7E91109FBC90001BF9D /* Genres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Genres.png; sourceTree = "<group>"; };
+		484FE7EB1109FBDF0001BF9D /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		48639D971166270700317E96 /* GenresFilter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GenresFilter.xib; path = Classes/GenresFilter.xib; sourceTree = "<group>"; };
+		4888E6BF117CC0E200D4CBD6 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		4888E6C2117CC12E00D4CBD6 /* Categories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Categories.png; sourceTree = "<group>"; };
+		4892E15E1173A92D006B1D79 /* GenresFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenresFilterController.h; sourceTree = "<group>"; };
+		4892E15F1173A92D006B1D79 /* GenresFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenresFilterController.m; sourceTree = "<group>"; };
+		4892E4E4117B6B47006B1D79 /* PeriodPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodPickerController.h; sourceTree = "<group>"; };
+		4892E4E5117B6B47006B1D79 /* PeriodPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodPickerController.m; sourceTree = "<group>"; };
+		48C0C6E01105FD170021E50E /* GenresController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenresController.h; path = ../GenresController.h; sourceTree = "<group>"; };
+		48C0C6E11105FD170021E50E /* GenresController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenresController.m; path = ../GenresController.m; sourceTree = "<group>"; };
+		48C0C6FC1105FE490021E50E /* SqliteDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteDelegate.h; sourceTree = "<group>"; };
+		48C0C6FD1105FE490021E50E /* SqliteDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteDelegate.m; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		48C0C7D4110611BB0021E50E /* MoviesListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesListController.h; sourceTree = "<group>"; };
+		48C0C7D5110611BB0021E50E /* MoviesListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesListController.m; sourceTree = "<group>"; };
+		48C548F3113D878F00F03665 /* Random.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Random.xib; sourceTree = "<group>"; };
+		48C5495E113EB6E600F03665 /* RandomNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandomNavController.xib; sourceTree = "<group>"; };
+		48C799551189F06F00392A5E /* PeriodPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeriodPicker.xib; sourceTree = "<group>"; };
+		48DBB2E11111F5A50064B780 /* GenresNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenresNavController.xib; sourceTree = "<group>"; };
+		48DBB2E51111F5AF0064B780 /* SearchNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchNavController.xib; sourceTree = "<group>"; };
+		48E8552B1109C70D004D1F14 /* MoviesList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MoviesList.xib; path = Classes/MoviesList.xib; sourceTree = "<group>"; };
+		48E9D0941110521300D9530E /* AlphabetScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlphabetScrollView.xib; sourceTree = "<group>"; };
+		48E9D0A8111053C700D9530E /* AlphabetScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphabetScrollViewController.h; sourceTree = "<group>"; };
+		48E9D0A9111053C700D9530E /* AlphabetScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphabetScrollViewController.m; sourceTree = "<group>"; };
+		48E9D0C91110556100D9530E /* Genres.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Genres.xib; sourceTree = "<group>"; };
+		48E9D15011105DE200D9530E /* RandomMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomMovieController.h; sourceTree = "<group>"; };
+		48E9D15111105DE200D9530E /* RandomMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomMovieController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MovieQuotes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MovieQuotes-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				48366B40110F072F00209DE1 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MovieQuotesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MovieQuotesAppDelegate.m */,
+				484FE72F1109E65D0001BF9D /* NavController.h */,
+				484FE7301109E65D0001BF9D /* NavController.m */,
+				48E9D15011105DE200D9530E /* RandomMovieController.h */,
+				48E9D15111105DE200D9530E /* RandomMovieController.m */,
+				48C0C6E01105FD170021E50E /* GenresController.h */,
+				48C0C6E11105FD170021E50E /* GenresController.m */,
+				48344B2E115D15C600BCA21E /* SearchController.h */,
+				48344B2F115D15C600BCA21E /* SearchController.m */,
+				4892E15E1173A92D006B1D79 /* GenresFilterController.h */,
+				4892E15F1173A92D006B1D79 /* GenresFilterController.m */,
+				4892E4E4117B6B47006B1D79 /* PeriodPickerController.h */,
+				4892E4E5117B6B47006B1D79 /* PeriodPickerController.m */,
+				48E9D0A8111053C700D9530E /* AlphabetScrollViewController.h */,
+				48E9D0A9111053C700D9530E /* AlphabetScrollViewController.m */,
+				48C0C7D4110611BB0021E50E /* MoviesListController.h */,
+				48C0C7D5110611BB0021E50E /* MoviesListController.m */,
+				484FE7881109EDBC0001BF9D /* MovieInfoController.h */,
+				484FE7891109EDBC0001BF9D /* MovieInfoController.m */,
+				48C0C6FC1105FE490021E50E /* SqliteDelegate.h */,
+				48C0C6FD1105FE490021E50E /* SqliteDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MovieQuotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MovieQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MovieQuotes;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* MovieQuotes_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48E9D12D11105CAC00D9530E /* DB */,
+				48E9D12C11105C9D00D9530E /* Pics */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				484FE7311109E65D0001BF9D /* AlphabetNavController.xib */,
+				48C5495E113EB6E600F03665 /* RandomNavController.xib */,
+				48DBB2E11111F5A50064B780 /* GenresNavController.xib */,
+				48DBB2E51111F5AF0064B780 /* SearchNavController.xib */,
+				48639D971166270700317E96 /* GenresFilter.xib */,
+				48E9D0C91110556100D9530E /* Genres.xib */,
+				48344B2C115D15BE00BCA21E /* Search.xib */,
+				48C799551189F06F00392A5E /* PeriodPicker.xib */,
+				48E9D0941110521300D9530E /* AlphabetScrollView.xib */,
+				48E8552B1109C70D004D1F14 /* MoviesList.xib */,
+				484FE78A1109EDBC0001BF9D /* MovieInfo.xib */,
+				8D1107310486CEB800E47090 /* MovieQuotes-Info.plist */,
+				48174CB81225C4FD00C639F8 /* icon.png */,
+				48C548F3113D878F00F03665 /* Random.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				48366B3F110F072F00209DE1 /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48E9D12C11105C9D00D9530E /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				48174C4A1225BA0700C639F8 /* FilmBackground.png */,
+				48129CED1221918B00371C43 /* Film.png */,
+				4888E6BF117CC0E200D4CBD6 /* Search.png */,
+				4888E6C2117CC12E00D4CBD6 /* Categories.png */,
+				484FE7E91109FBC90001BF9D /* Genres.png */,
+				484FE7EB1109FBDF0001BF9D /* Home.png */,
+				484FE7E71109FB750001BF9D /* MoviesList.png */,
+			);
+			name = Pics;
+			sourceTree = "<group>";
+		};
+		48E9D12D11105CAC00D9530E /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				48174D8E1225D49400C639F8 /* database.sqlite */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MovieQuotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MovieQuotes" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieQuotes;
+			productName = MovieQuotes;
+			productReference = 1D6058910D05DD3D006BFB54 /* MovieQuotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MovieQuotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MovieQuotes */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MovieQuotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				48E8552C1109C70D004D1F14 /* MoviesList.xib in Resources */,
+				484FE7331109E65D0001BF9D /* AlphabetNavController.xib in Resources */,
+				484FE78C1109EDBC0001BF9D /* MovieInfo.xib in Resources */,
+				484FE7E81109FB750001BF9D /* MoviesList.png in Resources */,
+				484FE7EA1109FBC90001BF9D /* Genres.png in Resources */,
+				484FE7EC1109FBDF0001BF9D /* Home.png in Resources */,
+				48E9D0951110521300D9530E /* AlphabetScrollView.xib in Resources */,
+				48E9D0CA1110556100D9530E /* Genres.xib in Resources */,
+				48DBB2E21111F5A50064B780 /* GenresNavController.xib in Resources */,
+				48DBB2E61111F5AF0064B780 /* SearchNavController.xib in Resources */,
+				48C548F4113D878F00F03665 /* Random.xib in Resources */,
+				48C5495F113EB6E600F03665 /* RandomNavController.xib in Resources */,
+				48344B2D115D15BE00BCA21E /* Search.xib in Resources */,
+				48639D981166270700317E96 /* GenresFilter.xib in Resources */,
+				4888E6C0117CC0E200D4CBD6 /* Search.png in Resources */,
+				4888E6C3117CC12E00D4CBD6 /* Categories.png in Resources */,
+				48C799561189F06F00392A5E /* PeriodPicker.xib in Resources */,
+				48129CEE1221918B00371C43 /* Film.png in Resources */,
+				48174C4B1225BA0700C639F8 /* FilmBackground.png in Resources */,
+				48174CB91225C4FD00C639F8 /* icon.png in Resources */,
+				48174D8F1225D49400C639F8 /* database.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MovieQuotesAppDelegate.m in Sources */,
+				48C0C6E31105FD170021E50E /* GenresController.m in Sources */,
+				48C0C6FE1105FE490021E50E /* SqliteDelegate.m in Sources */,
+				48C0C7D7110611BB0021E50E /* MoviesListController.m in Sources */,
+				484FE7321109E65D0001BF9D /* NavController.m in Sources */,
+				484FE78B1109EDBC0001BF9D /* MovieInfoController.m in Sources */,
+				48E9D0AA111053C700D9530E /* AlphabetScrollViewController.m in Sources */,
+				48E9D15211105DE200D9530E /* RandomMovieController.m in Sources */,
+				48344B30115D15C600BCA21E /* SearchController.m in Sources */,
+				4892E1601173A92D006B1D79 /* GenresFilterController.m in Sources */,
+				4892E4E7117B6B47006B1D79 /* PeriodPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MovieQuotes_Prefix.pch;
+				INFOPLIST_FILE = "MovieQuotes-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PRODUCT_NAME = MovieQuotes;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MovieQuotes_Prefix.pch;
+				INFOPLIST_FILE = "MovieQuotes-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PRODUCT_NAME = MovieQuotes;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MovieQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MovieQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
